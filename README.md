@@ -67,6 +67,8 @@ Options:
   -o, --overwrite        whether to overwrite any changes on the server
 ```
 
+Note: the `--api-key` option can also be set with a `GRAFANA_API_KEY` environment variable.
+
 
 Testing
 -------
