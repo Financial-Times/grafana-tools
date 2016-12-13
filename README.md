@@ -27,7 +27,7 @@ Table Of Contents
 Requirements
 ------------
 
-Running Grafana tools requires [Node.js] 6.x and [npm].
+Running Grafana tools requires [Node.js] 4.x and [npm].
 
 
 Install
