@@ -16,6 +16,7 @@
     "node.extend": "^1.1.6"
   },
   "devDependencies": {
+    "@financial-times/origami-service-makefile": "^6.0.0",
     "eslint": "^2.13.1",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",

@@ -1,27 +1,12 @@
-include n.Makefile
+# Origami Service Makefile
+# ------------------------
+# This section of the Makefile should not be modified, it includes
+# commands from the Origami service Makefile.
+# https://github.com/Financial-Times/origami-service-makefile
+include node_modules/@financial-times/origami-service-makefile/index.mk
+# [edit below this line]
+# ------------------------
 
-
-# Config vars
-
-EXPECTED_COVERAGE = 90
-
-
-# Verify tasks
-
-verify-coverage:
-	@istanbul check-coverage --statement $(EXPECTED_COVERAGE) --branch $(EXPECTED_COVERAGE) --function $(EXPECTED_COVERAGE)
-	@$(DONE)
-
-
-# Test tasks
-
-test: test-unit-coverage verify-coverage
-	@$(DONE)
-
-test-unit:
-	@NODE_ENV=test mocha test/unit --recursive
-	@$(DONE)
-
-test-unit-coverage:
-	@NODE_ENV=test istanbul cover node_modules/.bin/_mocha -- test/unit --recursive
-	@$(DONE)
+npm-publish:
+	npm-prepublish --verbose
+	npm publish --access public

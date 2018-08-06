@@ -1,0 +1,14 @@
+{
+	"description": "Automate your project Grafana dashboards.",
+	"origamiType": null,
+	"origamiVersion": 1,
+	"keywords": [
+		"origami"
+	],
+	"support": "https://github.com/Financial-Times/grafana-tools/issues",
+	"supportStatus": "active",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/ft-origami"
+	}
+}
