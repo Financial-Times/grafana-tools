@@ -1,11 +1,8 @@
 
-Grafana Tools
+Grafana Tools [![Build status](https://img.shields.io/circleci/project/Financial-Times/grafana-tools.svg)][ci] [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 =============
 
 Automate your project Grafana dashboards.
-
-[![Build status](https://img.shields.io/circleci/project/Financial-Times/grafana-tools.svg)][ci]
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 ```sh
 grafana pull <slug> <file>
