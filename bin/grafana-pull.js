@@ -50,7 +50,7 @@ const grafana = new GrafanaClient({
 });
 grafana.pull(name, file)
 	.then(() => {
-		console.log(chalk.green(`Pulled dashboard successfully`));
+		console.log(chalk.green('Pulled dashboard successfully'));
 	})
 	.catch(error => {
 		console.error(`${chalk.red(error.message)}\n${error.stack ? chalk.grey(error.stack.replace(error.message, '')) : ''}`);
