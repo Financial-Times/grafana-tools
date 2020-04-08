@@ -1,4 +1,4 @@
-name: Test Origami Via Make
+name: Test
 on: [push]
 jobs:
   build:
@@ -8,6 +8,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 12.x
-    - run: npm install
+    - run: npm ci
     - run: make verify
     - run: make test
