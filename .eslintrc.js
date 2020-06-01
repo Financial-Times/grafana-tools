@@ -33,7 +33,7 @@ module.exports = {
 	},
 	'globals': {
 		'after': true,
-		'afterEachv: true,
+		'afterEach': true,
 		'before': true,
 		'beforeEach': true,
 		'describe': true,
