@@ -27,7 +27,7 @@
     "sinon-as-promised": "^4.0.2"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=10"
   },
   "scripts": {
     "test": "make verify test"
