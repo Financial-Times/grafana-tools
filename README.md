@@ -1,6 +1,5 @@
 
-Grafana Tools [![Build status](https://img.shields.io/circleci/project/Financial-Times/grafana-tools.svg)][ci] [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
-=============
+# Grafana Tools [![Build status](https://img.shields.io/circleci/project/Financial-Times/grafana-tools.svg)][ci] [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 Automate your project Grafana dashboards.
 
@@ -9,9 +8,7 @@ grafana pull <slug> <file>
 grafana push <slug> <file>
 ```
 
-
-Table Of Contents
------------------
+## Table Of Contents
 
   * [Requirements](#requirements)
   * [Install](#install)
@@ -21,21 +18,18 @@ Table Of Contents
   * [License](#license)
 
 
-Requirements
-------------
+## Requirements
 
 Running Grafana tools requires [Node.js] 10.x and [npm].
 
 
-Install
--------
+## Install
 
 ```sh
 npm install -g @financial-times/grafana-tools
 ```
 
-Usage
------
+## Usage
 
 Pull a JSON representation of a dashboard and save it locally:
 
@@ -67,8 +61,7 @@ Options:
 Note: the `--api-key` option can also be set with a `GRAFANA_API_KEY` environment variable.
 
 
-Testing
--------
+## Testing
 
 To run tests on your machine you'll need to install [Node.js] and run `make install`. Then you can run the following commands:
 
@@ -92,18 +85,20 @@ make verify
 We run the tests and linter on CI, you can view [results on CircleCI][ci]. `make test` and `make lint` must pass before we merge a pull request.
 
 
-Deployment
-----------
+## Deployment
 
 New versions of the module are published automatically by CI when a new tag is created matching the pattern `/v.*/`.
 
+## Migration guide
 
-License
--------
+State | Major Version | Last Minor Release | Migration guide |
+:---: | :---: | :---: | :---:
+✨ active | 2 | N/A | [migrate to v2](MIGRATION.md#migrating-from-v1-to-v2) |
+⚠ maintained | 1 | 1.0 | N/A |
+
+## License
 
 The Financial Times has published this software under the [MIT license][license].
-
-
 
 [ci]: https://circleci.com/gh/Financial-Times/grafana-tools
 [license]: http://opensource.org/licenses/MIT
