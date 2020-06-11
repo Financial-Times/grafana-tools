@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "chalk": "^4.0.0",
-    "commander": "^2.9.0",
+    "commander": "^5.1.0",
     "isomorphic-fetch": "^2.2.1",
     "node.extend": "^2.0.2"
   },
