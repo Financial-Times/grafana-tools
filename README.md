@@ -1,5 +1,5 @@
 
-# Grafana Tools [![Build status](https://img.shields.io/circleci/project/Financial-Times/grafana-tools.svg)][ci] [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
+# Grafana Tools [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 Automate your project Grafana dashboards.
 
@@ -82,7 +82,7 @@ The code will also need to pass linting on CI, you can run the linter locally wi
 make verify
 ```
 
-We run the tests and linter on CI, you can view [results on CircleCI][ci]. `make test` and `make lint` must pass before we merge a pull request.
+We run the tests and linter on CI, you can view ci. `make test` and `make lint` must pass before we merge a pull request.
 
 
 ## Deployment
@@ -100,7 +100,6 @@ State | Major Version | Last Minor Release | Migration guide |
 
 The Financial Times has published this software under the [MIT license][license].
 
-[ci]: https://circleci.com/gh/Financial-Times/grafana-tools
 [license]: http://opensource.org/licenses/MIT
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
