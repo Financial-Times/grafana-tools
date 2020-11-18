@@ -1,6 +1,6 @@
 {
 	"description": "Automate your project Grafana dashboards.",
-	"origamiType": null,
+	"origamiType": "cli",
 	"origamiVersion": 1,
 	"keywords": [
 		"origami"
